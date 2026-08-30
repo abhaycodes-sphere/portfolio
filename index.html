@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhay Gond — B.Tech CSE Student &amp; Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Abhay Gond, B.Tech CSE student at Lovely Professional University, building toward full-stack (MERN) development.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ SKIP LINK ============ -->
+<a class="skip-link" href="#home">Skip to content</a>
+
+<!-- ============ NAV — styled as an editor tab bar ============ -->
+<header class="topbar" id="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="#home" aria-label="Abhay Gond — home">
+      <span class="brand__prompt">&gt;_</span>
+      <span class="brand__name">abhay<span class="brand__dot">.</span>dev</span>
+    </a>
+
+    <nav class="tabs" id="tabs" aria-label="Primary">
+      <a class="tab" href="#home" data-section="home">
+        <span class="tab__label">Home</span>
+        <span class="tab__file">index.html</span>
+      </a>
+      <a class="tab" href="#about" data-section="about">
+        <span class="tab__label">About</span>
+        <span class="tab__file">about.md</span>
+      </a>
+      <a class="tab" href="#education" data-section="education">
+        <span class="tab__label">Education</span>
+        <span class="tab__file">education.yml</span>
+      </a>
+      <a class="tab" href="#skills" data-section="skills">
+        <span class="tab__label">Skills</span>
+        <span class="tab__file">skills.json</span>
+      </a>
+      <a class="tab" href="#projects" data-section="projects">
+        <span class="tab__label">Projects</span>
+        <span class="tab__file">projects/</span>
+      </a>
+      <a class="tab" href="#certificates" data-section="certificates">
+        <span class="tab__label">Certificates</span>
+        <span class="tab__file">certs.log</span>
+      </a>
+      <a class="tab" href="#achievements" data-section="achievements">
+        <span class="tab__label">Achievements</span>
+        <span class="tab__file">README.md</span>
+      </a>
+      <a class="tab" href="#contact" data-section="contact">
+        <span class="tab__label">Contact</span>
+        <span class="tab__file">contact.sh</span>
+      </a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- mobile drawer -->
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+    <a href="#home" data-section="home">Home</a>
+    <a href="#about" data-section="about">About</a>
+    <a href="#education" data-section="education">Education</a>
+    <a href="#skills" data-section="skills">Skills</a>
+    <a href="#projects" data-section="projects">Projects</a>
+    <a href="#certificates" data-section="certificates">Certificates</a>
+    <a href="#achievements" data-section="achievements">Achievements</a>
+    <a href="#contact" data-section="contact">Contact</a>
+  </nav>
+</header>
+
+<main id="home">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__grid">
+      <div class="hero__code">
+        <div class="window">
+          <div class="window__bar">
+            <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+            <span class="window__title">profile.js</span>
+          </div>
+          <div class="window__body">
+            <pre class="code" id="typedCode" aria-hidden="true"></pre>
+            <p class="sr-only">Developer object: name Abhay Gond, role B.Tech CSE Student, focus Full-Stack MERN Development, based in Jalandhar Punjab India, status open to opportunities.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__intro">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>open to internships &amp; opportunities</p>
+        <h1>Hi, I'm Abhay Gond.</h1>
+        <p class="hero__lede">I'm a passionate learner who loves to explore technology, build things, and grow along the way. Welcome to my space, where you can get to know a little about me.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="assets/resume.pdf" download>Download Résumé <i class="fa-solid fa-arrow-down-long"></i></a>
+        </div>
+        <div class="hero__links">
+          <a href="https://github.com/abhaycodes-sphere" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/abhay-gond-2158273b2/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://leetcode.com/u/abhay_dev_29/" target="_blank" rel="noopener" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+          <a href="mailto:abhaygond.dev@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#about" aria-label="Scroll to About"><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <p class="section__eyebrow">// about.md</p>
+    <div class="about__grid">
+      <div class="about__photo">
+        <img src="assets/profile.png" alt="Photo of Abhay Gond" onerror="handleImgError(this,'profile')">
+      </div>
+      <div class="about__text">
+        <h2 class="section__title">About Me</h2>
+        <p>I'm a B.Tech CSE student who enjoys exploring technology, solving problems, and turning ideas into practical projects. I'm continuously improving my programming and DSA skills while exploring software development through projects and hackathons.</p>
+        <p>Currently, I'm focused on building strong fundamentals and gaining the skills and experience needed for internships and future opportunities — with full-stack development (MERN) as my main direction.</p>
+        <ul class="about__facts">
+          <li><i class="fa-solid fa-location-dot"></i> Jalandhar, Punjab, India</li>
+          <li><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE Student | Aspiring Software Developer</li>
+          <li><i class="fa-solid fa-bullseye"></i> Focused on full-stack (MERN) development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section section--alt" id="education">
+    <p class="section__eyebrow">// education.yml</p>
+    <h2 class="section__title">Education</h2>
+    <div class="timeline">
+      <div class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <p class="timeline__date">2025 — 2029</p>
+          <h3>B.Tech, Computer Science &amp; Engineering</h3>
+          <p class="timeline__org">Lovely Professional University</p>
+          <p class="timeline__meta">Currently in 2nd year</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <p class="timeline__date">Class 12</p>
+          <h3>Senior Secondary Education</h3>
+          <p class="timeline__org">Purvanchal Public School, Gorakhpur, Uttar Pradesh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <p class="section__eyebrow">// skills.json</p>
+    <h2 class="section__title">Technical Skills</h2>
+    <div class="skills__grid">
+      <div class="skills__group">
+        <h3><i class="fa-solid fa-terminal"></i> Programming Languages</h3>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">C</span>
+          <span class="chip">C++</span>
+        </div>
+      </div>
+      <div class="skills__group">
+        <h3><i class="fa-solid fa-code"></i> Web Technologies</h3>
+        <div class="chips">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">React.js</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section--alt" id="projects">
+    <p class="section__eyebrow">// projects/</p>
+    <h2 class="section__title">Projects</h2>
+    <div class="projects__grid">
+
+      <!-- Project 1: Car Rental Website -->
+      <article class="card">
+        <div class="card__media card__media--empty" data-fallback="project1">
+          <i class="fa-solid fa-car-side"></i>
+          <span>project image</span>
+        </div>
+        <div class="card__body">
+          <h3>Car Rental Website</h3>
+          <p>A responsive car rental website built from scratch as a solo project during my frontend learning journey.</p>
+          <p class="card__role">Role: Built solo, end-to-end (structure, styling &amp; interactivity).</p>
+          <div class="chips chips--sm">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+          </div>
+          <div class="card__links">
+            <a class="btn btn--sm" href="demolink1" target="_blank" rel="noopener">View Code <i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2: TikiTopple -->
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/project2.png" alt="TikiTopple gameplay screenshot" onerror="handleImgError(this,'project2')">
+        </div>
+        <div class="card__body">
+          <h3>TikiTopple</h3>
+          <p>A real-time multiplayer strategy game. Players receive secret Tikis and use action cards to manipulate their positions on the board — the goal is to get your hidden Tikis into the top ranks and score the highest points.</p>
+          <div class="chips chips--sm">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Firebase Firestore</span>
+          </div>
+          <div class="card__links">
+            <a class="btn btn--sm btn--sm-primary" href="https://abhaycodes-sphere.github.io/TIKI-TOPPLE/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3: Environmental Awareness Portal -->
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/project3.png" alt="Environmental Awareness Registration Portal screenshot" onerror="handleImgError(this,'project3')">
+        </div>
+        <div class="card__body">
+          <h3>Environmental Awareness Registration Portal</h3>
+          <p>A registration portal built to support a Times Foundation × LPU community awareness drive — see the full story in <a href="#achievements">Achievements</a>.</p>
+          <div class="chips chips--sm">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Google Apps Script</span><span class="chip">Google Sheets</span>
+          </div>
+          <div class="card__links">
+            <a class="btn btn--sm btn--sm-primary" href="https://abhaycodes-sphere.github.io/environmental-awareness-registration-portal/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4: Flashcard AI -->
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/project4.png" alt="Flashcard AI application screenshot" onerror="handleImgError(this,'project4')">
+        </div>
+        <div class="card__body">
+          <h3>Flashcard AI — Study Smarter</h3>
+          <p>An AI-powered, client-side web app that automatically converts lecture notes and PDFs into interactive, multi-language study flashcards.</p>
+          <div class="chips chips--sm">
+            <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript (ES6+)</span><span class="chip">PDF.js</span><span class="chip">Font Awesome</span>
+          </div>
+          <div class="card__links">
+            <!-- <a class="btn btn--sm" href="https://abhaycodes-sphere.github.io/Flash_Card_Generators/" target="_blank" rel="noopener">Demo Link<i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+
+            <a class="btn btn--sm btn--sm-primary" href="https://abhaycodes-sphere.github.io/Flash_Card_Generators/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 5: Automatic Hand Sanitizer -->
+      <article class="card">
+        <div class="card__media">
+          <img src="assets/project5.png" alt="Automatic Hand Sanitizer device photo" onerror="handleImgError(this,'project5')">
+        </div>
+        <div class="card__body">
+          <h3>Automatic Hand Sanitizer</h3>
+          <p>An Arduino-based automatic hand sanitizer system designed to provide touch-free sanitization. It also monitors the soap/sanitizer level and triggers a buzzer alert when the level gets low.</p>
+          <div class="chips chips--sm">
+            <span class="chip">Arduino</span><span class="chip">Sensors</span><span class="chip">Buzzer</span><span class="chip">LCD Display</span>
+          </div>
+          <div class="card__links">
+            <span class="tag-note"><i class="fa-solid fa-microchip"></i> Hardware Project</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES — commit-log style ============ -->
+  <section class="section" id="certificates">
+    <p class="section__eyebrow">// certs.log</p>
+    <h2 class="section__title">Certificates</h2>
+    <p class="section__sub">Each entry links to the certificate image — click to view.</p>
+
+    <ul class="commitlog">
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate1.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">Apr 2026</span>
+          <span class="commitlog__name">Learning Full Stack React</span>
+          <span class="commitlog__org">Infosys Springboard</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate2.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">Mar 2026</span>
+          <span class="commitlog__name">JavaScript</span>
+          <span class="commitlog__org">Infosys Springboard</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate3.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">Feb 2026</span>
+          <span class="commitlog__name">HTML5 — The Language</span>
+          <span class="commitlog__org">Infosys Springboard</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate4.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">Feb 2026</span>
+          <span class="commitlog__name">CSS3</span>
+          <span class="commitlog__org">Infosys Springboard</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate5.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">2026</span>
+          <span class="commitlog__name">Community Development Project</span>
+          <span class="commitlog__org">Times Foundation × LPU</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate6.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">2026</span>
+          <span class="commitlog__name">Board2Code Hackathon 2026</span>
+          <span class="commitlog__org">NetPractice Campus × LPU</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate7.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">Jan – May 2026</span>
+          <span class="commitlog__name">Computer Programming <small>(150 hrs)</small></span>
+          <span class="commitlog__org">iamneo (an NIIT venture) × LPU</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+      <li class="commitlog__row">
+        <a href="assets/certificates/certificate8.png" target="_blank" rel="noopener" onclick="return checkCertLink(event,this)">
+          <span class="commitlog__dot"></span>
+          <span class="commitlog__date">2026</span>
+          <span class="commitlog__name">Introduction to Python</span>
+          <span class="commitlog__org">Saylor Academy</span>
+          <i class="fa-solid fa-arrow-up-right-from-square commitlog__icon"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section class="section section--alt" id="achievements">
+    <p class="section__eyebrow">// README.md</p>
+    <h2 class="section__title">  Experience </h2>
+    <div class="achievement">
+      <div class="achievement__icon"><i class="fa-solid fa-seedling"></i></div>
+      <div class="achievement__body">
+        <h3>Community Development Project</h3>
+        <p class="achievement__org">Times Foundation, in collaboration with Lovely Professional University</p>
+        <ul>
+          <li>Conducted an Environmental Awareness Session for school students across Classes 3–12.</li>
+          <li>Prepared teaching materials to support the session.</li>
+          <li>Built and deployed a registration portal using HTML, CSS, JavaScript, Google Apps Script and Google Sheets, hosted on GitHub Pages.</li>
+        </ul>
+        <a class="btn btn--sm btn--sm-primary" href="https://abhaycodes-sphere.github.io/environmental-awareness-registration-portal/" target="_blank" rel="noopener">View Portal <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <p class="section__eyebrow">// contact.sh</p>
+    <h2 class="section__title">Get In Touch</h2>
+    <p class="section__sub">Open to internship &amp; entry-level opportunities — feel free to reach out.</p>
+
+    <div class="contact__grid">
+      <a class="contact__card" href="mailto:abhaygond.dev@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>abhaygond.dev@gmail.com</span>
+      </a>
+      <a class="contact__card" href="tel:+919506865221">
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 95068 65221</span>
+      </a>
+      <a class="contact__card" href="https://www.linkedin.com/in/abhay-gond-2158273b2/" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a class="contact__card" href="https://github.com/abhaycodes-sphere" target="_blank" rel="noopener">
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
+      </a>
+      <a class="contact__card" href="https://leetcode.com/u/abhay_dev_29/" target="_blank" rel="noopener">
+        <i class="fa-solid fa-code"></i>
+        <span>LeetCode</span>
+      </a>
+      <a class="contact__card" href="assets/resume.pdf" download>
+        <i class="fa-solid fa-file-arrow-down"></i>
+        <span>Download Résumé</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Abhay Gond. Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
