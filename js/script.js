@@ -97,11 +97,12 @@ allSectionEls.forEach(sec => { if(sec) observer.observe(sec); });
 // Image fallback handling (profile photo, project images)
 // =========================================================
 const FALLBACK_CONTENT = {
-  profile:   { icon: 'fa-user', label: 'add assets/profile.jpg' },
-  project2:  { icon: 'fa-image', label: 'add assets/project2.jpg' },
-  project3:  { icon: 'fa-image', label: 'add assets/project3.jpg' },
-  project4:  { icon: 'fa-image', label: 'add assets/project4.jpg' },
-  project5:  { icon: 'fa-image', label: 'add assets/project5.jpg' }
+  profile:   { icon: 'fa-user', label: 'add assets/profile.png' },
+  project1:  { icon: 'fa-car-side',label: 'add assets/project1.png' },
+  project2:  { icon: 'fa-image', label: 'add assets/project2.png' },
+  project3:  { icon: 'fa-image', label: 'add assets/project3.png' },
+  project4:  { icon: 'fa-image', label: 'add assets/project4.png' },
+  project5:  { icon: 'fa-image', label: 'add assets/project5.png' }
 };
 
 function handleImgError(imgEl, key){

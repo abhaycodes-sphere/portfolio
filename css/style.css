@@ -232,7 +232,7 @@ button{ font-family:inherit; }
 /* =========================================================
    PROJECTS
    ========================================================= */
-.projects__grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:28px; }
+.projects__grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:28px; }
 .card{
   background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-lg);
   overflow:hidden; display:flex; flex-direction:column; transition:box-shadow .2s ease, transform .2s ease;
@@ -316,6 +316,7 @@ button{ font-family:inherit; }
   .hero__grid{ grid-template-columns:1fr; gap:40px; }
   .about__grid{ grid-template-columns:1fr; }
   .about__photo{ max-width:220px; }
+  .projects__grid{ grid-template-columns:repeat(2, 1fr); }
 }
 
 @media (max-width: 760px){
@@ -326,6 +327,7 @@ button{ font-family:inherit; }
   .section--alt > *{ padding-left:0; padding-right:0; }
   .achievement{ flex-direction:column; }
   .commitlog__org{ display:none; }
+  .projects__grid{ grid-template-columns:1fr; }
 }
 
 @media (max-width: 480px){
